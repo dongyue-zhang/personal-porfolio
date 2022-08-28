@@ -1,0 +1,77 @@
+/*This CSS is created by Dongyue Zhang*/
+body {
+    background-color: #DDD78D;
+    color: rgb(65, 64, 64);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+header, footer{
+    background-color: #60594D;
+    color: #93A29B;
+    border: rgb(65, 64, 64) solid 3px;
+    padding: 10px;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(81, 92, 14);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+a:link, :visited, :active{
+    text-decoration: none;
+    color: #DCBF85;
+}
+a:hover{
+    color: #8B635C;
+}
+p{
+    font-size: 14pt;
+    justify-content: left;
+    margin: 10px 0;
+    font-weight: normal;
+}
+q{
+    background-color: #DCBF85;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 10px;
+}
+ul > li{
+    font-weight: bold;
+    padding: 5px;
+}
+ol > li{
+    padding: 5px;
+    font-weight: normal;
+}
+img{
+    float: right;
+    width: 25%;
+    margin: 10px;
+}
+footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer > p{
+    text-align: right;
+    font-style: italic;
+    font-size: 10pt;
+}
+button{
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 12pt;
+    color: rgb(65, 64, 64);
+}
+button:hover{
+    background-color: rgb(156, 170, 61);
+    color: #8B635C;
+}
